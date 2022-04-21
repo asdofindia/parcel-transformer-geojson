@@ -1,6 +1,8 @@
 # parcel-transformer-geojson
 
-This is a parcel v2 transformer plugin that tells parcel that geojson files are, in fact, json files.
+This is a parcel v2 transformer plugin that ~tells parcel that geojson files are, in fact, json files~ transforms geojson files for use in scripts.
+
+Edit: Earlier it was just converting geojson to json, but that proved too slow (or broken) for large files. Now it uses code from the [official json transformer](https://github.com/parcel-bundler/parcel/tree/v2/packages/transformers/json/) and replicates what it does.
 
 It was created for private use, but parcel developers made an intelligent choice [here](https://github.com/parcel-bundler/parcel/issues/3397#issuecomment-521353931).
 
