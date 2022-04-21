@@ -1,6 +1,6 @@
-import { Transformer } from "@parcel/plugin";
+const { Transformer } = require("@parcel/plugin");
 
-export default new Transformer({
+module.exports = new Transformer({
   async transform({ asset }) {
     asset.type = "json";
     return [asset];
