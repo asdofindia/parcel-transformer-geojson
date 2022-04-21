@@ -1,0 +1,28 @@
+{
+  "name": "parcel-transformer-geojson",
+  "version": "0.0.1",
+  "description": "A simple geojson to json transformer for parcel v2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asdofindia/parcel-transformer-geojson.git"
+  },
+  "keywords": [
+    "parcel",
+    "transformer",
+    "parcel-transformer",
+    "geojson"
+  ],
+  "author": "Akshay S Dinesh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/asdofindia/parcel-transformer-geojson/issues"
+  },
+  "homepage": "https://github.com/asdofindia/parcel-transformer-geojson#readme",
+  "dependencies": {
+    "@parcel/plugin": "^2.4.1"
+  }
+}
