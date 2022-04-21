@@ -24,5 +24,8 @@
   "homepage": "https://github.com/asdofindia/parcel-transformer-geojson#readme",
   "dependencies": {
     "@parcel/plugin": "^2.4.1"
+  },
+  "engines": {
+    "parcel": "2.x"
   }
 }
