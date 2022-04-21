@@ -17,7 +17,10 @@ import geojsonData from "./mydata.geojson"
 and parcel says
 
 ```
-@parcel/resolver-default: Cannot load file "./mydata.geojson' in ...
+🚨 Build failed.
+
+@parcel/core: No transformers found for
+.../mydata.geojson.
 ```
 
 because parcel does not know that geojson is json.
